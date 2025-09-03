@@ -1,1 +1,13 @@
+# 台形の面積を計算するプログラム
+
+# 変数の設定（単位は cm）
+top_side = 10   # 上辺
+bottom_side = 20  # 下辺
+height = 5     # 高さ
+
+# 台形の面積の公式
+area = (top_side + bottom_side) * height / 2
+
+# 結果を表示
+print(f"台形の面積は {area}㎠ です。")
 
